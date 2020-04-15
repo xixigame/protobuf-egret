@@ -128,7 +128,7 @@ function generate(rootDir) {
                         }); }))];
                 case 14:
                     _a.sent();
-                    args = ['-t', 'static', '--keep-case', '-p', protoRoot, protoList.join(" "), '-o', tempfile];
+                    args = ['-t', 'static', '--keep-case', '-p', protoRoot, protoList.join(" "), '-o', tempfile,"--force-number"];
                     if (pbconfig.options['no-create']) {
                         args.unshift('--no-create');
                     }
