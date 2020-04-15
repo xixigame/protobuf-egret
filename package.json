@@ -1,10 +1,10 @@
 {
-  "name": "@egret/protobuf",
+  "name": "@egretxx/protobuf",
   "version": "1.2.1",
   "description": "",
   "main": "index.js",
   "bin": {
-    "pb-egret": "out/cli.js"
+    "pb-egret-xx": "out/cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
